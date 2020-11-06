@@ -18,7 +18,7 @@ def equalpress():
         fenster.configure(background="light blue") 
         fenster.geometry("250x150") 
         labeltext = Label(master=fenster,
-                            text='Sicherheitsüberprüfung!!\n\n Lösen sie bitte die folgende Aufgabe \num zu zeigen, dass sie kein Roboter sind. \n'+expression)
+                            text='Security Check!!\n\n Please solve the following task to show \nthat you are not a robot. \n'+expression)
         labeltext.place(x=6, y=6, width=230, height=80)
         eingabefeld = Entry(fenster)
         eingabefeld.place(x=60, y = 90, width=100,height= 20)
